@@ -21,7 +21,7 @@ repository: "jethroodeyemi/jethroodeyemi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "profile.png"
+  avatar: "profile.jpg"
   name: "Jethro Odeyemi"
   pronouns: # example: "she/her"
   bio: "Ph.D. student in Biomedical Engineering focusing on medical robotics, machine learning, and human-computer interaction."
@@ -48,7 +48,7 @@ author:
   stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  bluesky: "bsky.app" # Replace this with you Bluesky username
+  bluesky: # Username
   facebook: # Username
   flickr: # Username
   foursquare: # Username
@@ -270,7 +270,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Regina # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
