@@ -1,13 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Deep data analysis for COVID-19 outbreak"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2022-02-01-deep-data-analysis-for-covid-19-outbreak
+excerpt: 'The rampaging effects of the coronavirus disease in 2019 (COVID-19), which was pronounced a pandemic on 11 March 2020 by the World Health Organization (WHO), have become one of the biggest challenges of the twenty-first century in terms of general wellbeing and safety.'
+date: 2022-02-01
+venue: 'Reinvention of health applications with IoT'
+paperurl: 'https://digital-library.theiet.org/content/books/10.1049/pbhe038e_ch12'
+citation: 'O.J. Odeyemi, S.O. Owoeye, K.I. Adenuga and C.B. Emele. (2022). Deep machine learning for Sensing, Analysis, and Interpretation in IoT Healthcare. Reinvention of health applications with IoT: 1-16.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The rampaging effects of the coronavirus disease in 2019 (COVID-19), which was pronounced a pandemic on 11 March 2020 by the World Health Organization (WHO), have become one of the biggest challenges of the twenty-first century in terms of general wellbeing and safety. The effects of COVID-19, with over 100 million positive cases and more than 3 million deaths, have caused great damage to the social, economic and family well-being of people around the world. Clinical studies of COVID-19 have shown that patients are mostly infected from the lungs as a result of the SARS-COV-2 virus (severe acute respiratory syndrome coronavirus 2), for which the data collected from various patients are huge for medical practitioners to analyse and capture the trends. To solve this problem, the concept of deep data analysis comes into play. Deep data analysis is a process used in deriving useful information, trends and analysing large-scale data. Making use of deep analytics processes will ensure that needed results are gotten from millions of COVID-19 data. This chapter discusses the various deep analytics applications and how they can be used specifically for COVID-19 data. One very useful deep analytics technique is the convolutional neural network (CNN) model. CNN has shown to be useful in analysing image data and this technique can be applied in COVID-19-related situations. A method of diagnosing positive COVID-19 patients involves chest X-ray, radiography. The captured X-rays can be fed to a trained CNN model that checks for differences between that of the positive patients and a healthy one. Thus, deep analytics through CNN can be useful in diagnosing COVID-19 patients. To carry out the deep analytics, the COVID-19 radiography database on Kaggle was used. This chest X-ray database consists of 3,615 COVID-19 positive images, 10,192 normal images, 1,345 viral pneumonia images and 6,012 lung opacity images. After cleaning the data, they were split into training, testing and validation sets. The trained CNN model was trained to distinguish between the four different groups of images. Eventually, the proposed system was synchronized with Internet of Things - based health monitoring tools and provides results to doctors and health workers, in general, to adequately diagnose and assist in the treatment of COVID-19.
