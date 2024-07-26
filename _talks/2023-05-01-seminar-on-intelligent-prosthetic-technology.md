@@ -1,7 +1,7 @@
 ---
 title: "Seminar on Intelligent Prosthetic Technology"
 collection: talks
-type: "Tutorial"
+type: "Seminar"
 permalink: /talks/2023-05-01-seminar-on-intelligent-prosthetic-technology
 venue: "University of Saskatchewan, Division of Biomedical Engineering"
 date: 2023-05-01
