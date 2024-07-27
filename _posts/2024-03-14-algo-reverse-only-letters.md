@@ -9,8 +9,6 @@ tags:
   - leetcode
 ---
 
-## Introduction
-
 In many programming interviews, candidates encounter challenges that test their ability to manipulate strings efficiently. One such problem involves reversing a string with a twist: only the letters should be reversed, while non-letter characters remain in their original positions. In this blog post, we'll explore this problem and present an optimized Python solution.
 
 ## Problem Statement
