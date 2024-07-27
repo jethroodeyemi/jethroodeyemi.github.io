@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[click for pdf](#)
+
 Education
 ======
 * Ph.D in Biomedical Engineering, University of Saskatchewan, 2024-2027 (expected)
