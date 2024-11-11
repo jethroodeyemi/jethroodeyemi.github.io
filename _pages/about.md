@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD student in Biomedical Engineering at the University of Saskatchewan, where I focus on developing advanced biomedical technologies. My research spans various interdisciplinary areas including artificial intelligence, biosystems, medical devices, and control systems, with a particular interest in enhancing human health through innovative engineering solutions.
+I am currently a Masters student in Computer Science at the Georgia Institute of Technology, where I am specializing in Machine Learning. My research spans various interdisciplinary areas including artificial intelligence, biosystems, medical devices, and control systems, with a particular interest in enhancing human health through innovative engineering solutions.
 
 My research interests
 ------
@@ -19,8 +19,6 @@ My research interests
 
 My educational background
 ------
-- **PhD in Biomedical Engineering** (In Progress), University of Saskatchewan
-  - Supervisor: <a href="https://scholar.google.com/citations?user=sE7TBcEAAAAJ&hl=en" target="_blank">Prof. W.J. Zhang</a>
 - **MSc in Computer Science**, Georgia Institute of Technology
   - Specialization: Machine Learning
 - **MSc in Biomedical Engineering**, University of Saskatchewan
