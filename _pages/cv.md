@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[click for pdf](#)
+[click for pdf](http://academicpages.github.io/files/Jethro CV.pdf)
 
 Education
 ======
