@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Biomedical Engineering, University of Saskatchewan, 2024-2027 (expected)
+* M.Sc. in Computer Scence, Georgia Institute of Technology, 2024-2025 (expected)
 * M.Sc. in Biomedical Engineering, University of Saskatchewan, 2022-2023
 * B.Eng. in Mechatronics Engineering, Federal University of Agriculture, Abeokuta, 2015-2021
 
