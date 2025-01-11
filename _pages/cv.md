@@ -11,45 +11,51 @@ redirect_from:
 
 [click for pdf](https://jethroodeyemi.github.io/files/Jethro_CV.pdf)
 
-Education
-======
-* M.Sc. in Computer Scence, Georgia Institute of Technology, 2024-2025 (expected)
-* M.Sc. in Biomedical Engineering, University of Saskatchewan, 2022-2023
-* B.Eng. in Mechatronics Engineering, Federal University of Agriculture, Abeokuta, 2015-2021
+# Education
 
-Work experience
-======
-* 2024-present: CTO
-  * ForesAIt Medical inc
+- Ph.D. in Biomedical Engineering, University of Saskatchewan, 2024-2028 (expected)
+- M.Sc. in Computer Scence, Georgia Institute of Technology
+- M.Sc. in Biomedical Engineering, University of Saskatchewan, 2022-2023
+- B.Eng. in Mechatronics Engineering, Federal University of Agriculture, Abeokuta, 2014-2019
 
-* 2023-present: Lead Engineer
-  * Pathfinder365
+# Work experience
 
-* 2023: Graduate Teaching Assistant
-  * Mechanical Engineering, University of Saskatchewan
-  * Duties included: Teaching "Introduction to Mechatronics" laboratory
+- 2024-present: CTO
 
-* 2022: Graduate Assistant
-  * Psychology and Health Studies, University of Saskatchewan
+  - ForesAIt Medical inc
 
-* 2021-2022: Teaching Assistant
-  * Mechanical Engineering, Osun State University
+- 2023-present: Lead Engineer
 
-* 2019-2021: Robotics Software Engineer
-  * Phoenix Robots Ng
+  - Roamlii Adventure Agency
 
-Research interests
-======
-* Artificial Intelligence
-* Biosystems
-* Human-Computer Interaction
-* Medical devices
-* Robotics
-* Control Systems
-* Rehabilitation
+- 2023: Graduate Teaching Assistant
 
-Publications
-======
+  - Mechanical Engineering, University of Saskatchewan
+  - Duties included: Teaching "Introduction to Mechatronics" laboratory
+
+- 2022: Graduate Assistant
+
+  - Psychology and Health Studies, University of Saskatchewan
+
+- 2021-2022: Teaching Assistant
+
+  - Mechanical Engineering, Osun State University
+
+- 2019-2021: Robotics Software Engineer
+  - Phoenix Robots Ng
+
+# Research interests
+
+- Artificial Intelligence
+- Biosystems
+- Human-Computer Interaction
+- Medical devices
+- Robotics
+- Control Systems
+- Rehabilitation
+
+# Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -66,20 +72,20 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service and leadership
-======
-* 2022-present: Volunteer, Let's talk science
-* 2022: Volunteer, Saskatoon Cancer Centre
-* 2022-2023: Software Developer, Med.Hack(+) Workshop
+# Service and leadership
 
-Awards and Honors
-======
-* 2023-2024: Mitacs Business Initiative - $45,000
-* 2022-2023: Brian Dale Goodchild Award in Engineering - $8,500
-* 2021: First Class Honor, Federal University of Agriculture, Abeokuta
-* 2016-2019: Agbami Special Medical and Engineering Professionals Scholarship Award Scheme - 400,000 NGN
+- 2022-present: Volunteer, Let's talk science
+- 2022: Volunteer, Saskatoon Cancer Centre
+- 2022-2023: Software Developer, Med.Hack(+) Workshop
 
-Professional Memberships
-======
-* 2024-present: Engineer in Training, Association of Professional Engineers and Geoscientists of Saskatchewan
-* 2021-present: Graduate Member, Nigeria Society of Engineers
+# Awards and Honors
+
+- 2023-2024: Mitacs Business Initiative - $45,000
+- 2022-2023: Brian Dale Goodchild Award in Engineering - $8,500
+- 2021: First Class Honor, Federal University of Agriculture, Abeokuta
+- 2016-2019: Agbami Special Medical and Engineering Professionals Scholarship Award Scheme - 400,000 NGN
+
+# Professional Memberships
+
+- 2024-present: Engineer in Training, Association of Professional Engineers and Geoscientists of Saskatchewan
+- 2021-present: Graduate Member, Nigeria Society of Engineers
