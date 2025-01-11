@@ -13,20 +13,19 @@ redirect_from:
 
 # Education
 
-- Ph.D. in Biomedical Engineering, University of Saskatchewan, 2024-2028 (expected)
 - M.Sc. in Computer Scence, Georgia Institute of Technology
 - M.Sc. in Biomedical Engineering, University of Saskatchewan, 2022-2023
 - B.Eng. in Mechatronics Engineering, Federal University of Agriculture, Abeokuta, 2014-2019
 
 # Work experience
 
-- 2024-present: CTO
-
-  - ForesAIt Medical inc
-
-- 2023-present: Lead Engineer
+- 2023-present: Lead Software Engineer
 
   - Roamlii Adventure Agency
+
+- 2024: CTO
+
+  - ForesAIt Medical inc
 
 - 2023: Graduate Teaching Assistant
 
@@ -80,7 +79,7 @@ Teaching
 
 # Awards and Honors
 
-- 2023-2024: Mitacs Business Initiative - $45,000
+- 2023: BIOE SSF Devolved Scholarship - $10,000
 - 2022-2023: Brian Dale Goodchild Award in Engineering - $8,500
 - 2021: First Class Honor, Federal University of Agriculture, Abeokuta
 - 2016-2019: Agbami Special Medical and Engineering Professionals Scholarship Award Scheme - 400,000 NGN
@@ -88,4 +87,5 @@ Teaching
 # Professional Memberships
 
 - 2024-present: Engineer in Training, Association of Professional Engineers and Geoscientists of Saskatchewan
+- 2023-present: NSERC CREATE UnLimited - Advisor
 - 2021-present: Graduate Member, Nigeria Society of Engineers

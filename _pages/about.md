@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am the lead Software Engineer at Roamlii Adventure Agency inc and a PhD student at the University of Saskatchewan, where I am specializing in Machine Learning with focus in health applications. My research spans various interdisciplinary areas including artificial intelligence, biosystems, medical devices, and control systems, with a particular interest in enhancing human health through innovative engineering solutions.
+I am the Lead Software Engineer at Roamlii Adventure Agency. Outside of my work at Roamlii, I conduct foundational research with a focus on Machine Learning in health applications. My research interests span various interdisciplinary areas, including artificial intelligence, biosystems, medical devices, and control systems. I am particularly passionate about leveraging innovative engineering solutions to enhance human health.
 
 ## My research interests
 
@@ -19,8 +19,6 @@ I am the lead Software Engineer at Roamlii Adventure Agency inc and a PhD studen
 
 ## My educational background
 
-- **PhD in Biomedical Engineering**, University of Saskatchewan
-  - Supervisor: <a href="https://scholar.google.com/citations?user=sE7TBcEAAAAJ&hl=en" target="_blank">Prof. W.J. Zhang</a>
 - **MSc in Computer Science**, Georgia Institute of Technology
   - Specialization: Machine Learning
 - **MSc in Biomedical Engineering**, University of Saskatchewan
