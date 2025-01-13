@@ -110,7 +110,7 @@ _**[Figure 4]**_ visualizes the learning curves for the models with default para
 |                | Min Samples Split         | 2            | 2         |
 |                | Min Samples Leaf          | 1            | 1         |
 
-_**[Table 2]**_ reports the tuned hyperparameters of each model, while, _**[Insert Figure 6 Here: Validation curves for the kNN]**_, _**[Insert Figure 7 Here: Learning Curves for the SVM model]**_, _**[Insert Figure 8 Here: Validation curves for the NN model]**_, and _**[Insert Figure 9 Here: Validation curves for the Boosted DT model]**_ illustrates the impact of different hyperparameters.
+_**[Table 2]**_ reports the tuned hyperparameters of each model.
 
 ![Learning curves for models after hyperparameter tuning](https://jethroodeyemi.github.io/files/2025_01_12_post/fig5.png)
 
@@ -132,7 +132,14 @@ Key findings from hyperparameter tuning:
 |           | Precision Macro Avg | 0.87 | 0.87 | 0.87 | 0.92       |
 |           | Recall Macro Avg    | 0.84 | 0.83 | 0.80 | 0.85       |
 
-_**[Table VII]**_ shows the performance metrics using the optimal hyperparameters. Boosted Decision Trees reached a 93% accuracy and precision on the Fetal Health dataset and a 92% accuracy and precision on the Sleep Health Dataset, with Support Vector Machines coming in a close second. _**[Insert Table VIII Here: Table summarizing training times]**_ reports the fitting times (in seconds) for the models. The kNN model demonstrated the fastest training times, while NNs took significantly longer.
+_**[Table 3]**_ shows the performance metrics using the optimal hyperparameters. Boosted Decision Trees reached a 93% accuracy and precision on the Fetal Health dataset and a 92% accuracy and precision on the Sleep Health Dataset, with Support Vector Machines coming in a close second.
+
+| Datasets  | kNN          | SVM   | NN    | Boosted DT |
+| --------- | ------------ | ----- | ----- | ---------- |
+| Dataset 1 | <u>0.001</u> | 0.037 | 29.99 | 1.54       |
+| Dataset 2 | <u>0.001</u> | 0.003 | 5.95  | 0.2        |
+
+_**[Table 4]**_ reports the fitting times (in seconds) for the models. The kNN model demonstrated the fastest training times, while NNs took significantly longer.
 
 ## Discussion
 
