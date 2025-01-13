@@ -1,7 +1,7 @@
 ---
 title: "Supervised Learning Showdown: kNN, SVM, Neural Networks, and Boosted Trees"
-date: 2025-03-08
-permalink: /posts/2025/03/supervised-learning-analysis/
+date: 2025-01-12
+permalink: /posts/2025/01/supervised-learning-analysis/
 tags:
   - machine learning
   - supervised learning
@@ -30,9 +30,9 @@ As seen in _**[Figure 1]**_, several features exhibit skewed distributions and t
 
 The second dataset explores the link between sleep habits and lifestyle factors. It contains data from 400 individuals with 13 features such as sleep duration, physical activity, stress levels, and cardiovascular metrics. This dataset also includes information on sleep disorders, which serves as our target variable. We converted the target variable into a binary classification problem: presence of any sleep disorder (Insomnia or Sleep Apnea) vs. absence of a disorder. This resulted in a more balanced dataset. The original target included 3 categories: none, insomnia, sleep apnea.
 
-_**[Insert Figure 3 Here: Distribution of sleep disorders]**_
+![Distribution of sleep disorders in the sleep health dataset](https://jethroodeyemi.github.io/files/2025_01_12_post/fig2.png)
 
-_**[Figure 3]**_ depicts the distribution of sleep disorders within this dataset. The "No Disorder" category is the largest, with fewer instances of Sleep Apnea and Insomnia.
+_**[Figure 2]**_ depicts the distribution of sleep disorders within this dataset. The "No Disorder" category is the largest, with fewer instances of Sleep Apnea and Insomnia.
 
 Several categorical features in this dataset were one-hot encoded to create binary variables in order to work well with the models.
 
@@ -54,9 +54,9 @@ Our methodology involved the following steps:
 5.  **Hyperparameter Tuning:** Using a 3-fold cross-validation approach, we optimized the hyperparameters of each model.
 6.  **Final Model Evaluation:** The best-performing models from the cross-validation process were evaluated on the held-out test set.
 
-_**[Insert Figure 4 Here: The experimental process flow chart]**_
+![Experiment process flow](https://jethroodeyemi.github.io/files/2025_01_12_post/fig3.png)
 
-_**[Figure 4]**_ depicts the experiment process flow, from processed data to the model evaluation.
+_**[Figure 3]**_ depicts the experiment process flow, from processed data to the model evaluation.
 
 ## Model Implementation
 
@@ -78,23 +78,43 @@ We implemented AdaBoost and then optimized hyperparameters like number of estima
 
 ## Results
 
-_**[Insert Table V Here: Table summarizing performance metrics with default parameters]**_
+| Datasets  | Metric        | kNN  | SVM  | NN   | Boosted DT |
+| --------- | ------------- | ---- | ---- | ---- | ---------- |
+| Dataset 1 | Accuracy      | 0.92 | 0.90 | 0.88 | 0.93       |
+|           | Precision Avg | 0.84 | 0.84 | 0.79 | 0.87       |
+|           | Recall Avg    | 0.81 | 0.81 | 0.78 | 0.92       |
+| Dataset 2 | Accuracy      | 0.85 | 0.88 | 0.89 | 0.88       |
+|           | Precision Avg | 0.85 | 0.87 | 0.86 | 0.86       |
+|           | Recall Avg    | 0.80 | 0.83 | 0.87 | 0.83       |
 
-_**[Table V]**_ summarizes the performance metrics, such as accuracy, precision, and recall for all models with their default settings.
+_**[Table 1]**_ summarizes the performance metrics, such as accuracy, precision, and recall for all models with their default settings.
 
-_**[Insert Figure 5 Here: Learning curves of the models with default parameters]**_
+![Learning curves for models with default parameters](https://jethroodeyemi.github.io/files/2025_01_12_post/fig4.png)
 
-_**[Figure 5]**_ visualizes the learning curves for the models with default parameters across both datasets. In the plot, red lines indicate the training score, and green lines indicate cross validation score. Shaded areas also represent the variance.
+_**[Figure 4]**_ visualizes the learning curves for the models with default parameters across both datasets. In the plot, red lines indicate the training score, and green lines indicate cross validation score. Shaded areas also represent the variance.
 
 ### Hyperparameter Tuning and Cross-Validation
 
-_**[Insert Table VI Here: Table summarizing the optimal hyperparameters]**_
+| Models         | Parameter                 | Dataset 1    | Dataset 2 |
+| -------------- | ------------------------- | ------------ | --------- |
+| **kNN**        | Number of neighbors       | 4            | 4         |
+|                | Minkowski distance metric | 1            | 5         |
+| **SVM**        | C                         | 10           | 1         |
+|                | Kernel type               | rbf          | rbf       |
+| **NN**         | Hidden layer              | (64, 32, 16) | (32)      |
+|                | Dropout rate              | 0.2          | 0         |
+|                | Learning rate             | 0.1          | 0.01      |
+| **Boosted DT** | Number of Estimators      | 200          | 200       |
+|                | Learning Rate             | 0.5          | 0.1       |
+|                | Max Depth                 | 2            | 1         |
+|                | Min Samples Split         | 2            | 2         |
+|                | Min Samples Leaf          | 1            | 1         |
 
-_**[Table VI]**_ reports the tuned hyperparameters of each model, while, _**[Insert Figure 6 Here: Validation curves for the kNN]**_, _**[Insert Figure 7 Here: Learning Curves for the SVM model]**_, _**[Insert Figure 8 Here: Validation curves for the NN model]**_, and _**[Insert Figure 9 Here: Validation curves for the Boosted DT model]**_ illustrates the impact of different hyperparameters.
+_**[Table 2]**_ reports the tuned hyperparameters of each model, while, _**[Insert Figure 6 Here: Validation curves for the kNN]**_, _**[Insert Figure 7 Here: Learning Curves for the SVM model]**_, _**[Insert Figure 8 Here: Validation curves for the NN model]**_, and _**[Insert Figure 9 Here: Validation curves for the Boosted DT model]**_ illustrates the impact of different hyperparameters.
 
-_**[Insert Figure 10 Here: Learning Curves of the models after hyper parameter tuning]**_
+![Learning curves for models after hyperparameter tuning](https://jethroodeyemi.github.io/files/2025_01_12_post/fig5.png)
 
-_**[Figure 10]**_ illustrates the learning curves of the models after hyperparameter tuning.
+_**[Figure 5]**_ illustrates the learning curves of the models after hyperparameter tuning.
 
 Key findings from hyperparameter tuning:
 
@@ -103,7 +123,14 @@ Key findings from hyperparameter tuning:
 - **NN:** For Dataset 1, a three-layer network with (64, 32, 16) units, a dropout rate of 0.2, and a learning rate of 0.1 was ideal. On Dataset 2, the optimal setup was a single layer of 32 hidden neurons with no dropout, and a lower learning rate of 0.01.
 - **Boosted DT:** We pre-pruned our boosted decision trees using parameter tuning with a depth of 2 for Dataset 1 and 1 for Dataset 2, and a lower number of samples required for a node to be a leaf.
 
-_**[Insert Table VII Here: Table summarizing performance metrics with best parameters]**_
+| Dataset   | Metric              | kNN  | SVM  | NN   | Boosted DT |
+| --------- | ------------------- | ---- | ---- | ---- | ---------- |
+| Dataset 1 | Accuracy            | 0.91 | 0.93 | 0.88 | 0.93       |
+|           | Precision Macro Avg | 0.83 | 0.88 | 0.77 | 0.89       |
+|           | Recall Macro Avg    | 0.79 | 0.88 | 0.80 | 0.90       |
+| Dataset 2 | Accuracy            | 0.88 | 0.88 | 0.87 | 0.92       |
+|           | Precision Macro Avg | 0.87 | 0.87 | 0.87 | 0.92       |
+|           | Recall Macro Avg    | 0.84 | 0.83 | 0.80 | 0.85       |
 
 _**[Table VII]**_ shows the performance metrics using the optimal hyperparameters. Boosted Decision Trees reached a 93% accuracy and precision on the Fetal Health dataset and a 92% accuracy and precision on the Sleep Health Dataset, with Support Vector Machines coming in a close second. _**[Insert Table VIII Here: Table summarizing training times]**_ reports the fitting times (in seconds) for the models. The kNN model demonstrated the fastest training times, while NNs took significantly longer.
 
@@ -124,6 +151,34 @@ By evaluating different machine learning models using different metrics, we were
 
 ## References
 
-[Include references from the original document here]
+[1] Alfirevic Z, Devane D, Gyte GM, Cuthbert A. Continuous cardiotocography (CTG) as a form of electronic fetal monitoring (EFM) for fetal assessment during labour. _Cochrane Database Syst Rev._ 2017 Feb 3;2(2):CD006066. doi: 10.1002/14651858.CD006066.pub3. PMID: 28157275; PMCID: PMC6464257.
+
+[2] Ayres de Campos et al. (2000). SisPorto 2.0: A Program for Automated Analysis of Cardiotocograms. _J Matern Fetal Med,_ 5:311-318.
+
+[3] Sun, Bo, Chen, Haiyan. A Survey of k Nearest Neighbor Algorithms for Solving the Class Imbalanced Problem. _Wireless Communications and Mobile Computing,_ 2021, 5520990, 12 pages. https://doi.org/10.1155/2021/5520990
+
+[4] Zhan Shi. (2020). _IOP Conf. Ser.: Mater. Sci. Eng._ 719 012072.
+
+[5] Marcoulides KM, Raykov T. Evaluation of Variance Inflation Factors in Regression Models Using Latent Variable Modeling Methods. _Educ Psychol Meas._ 2019 Oct;79(5):874-882. doi: 10.1177/0013164418817803. Epub 2018 Dec 19. PMID: 31488917; PMCID: PMC6713981.
+
+[6] Laksika Tharmalingam. "Sleep Health and Lifestyle Dataset." Kaggle, 2022. [Online]. Available: https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset. [Accessed: Aug. 28, 2024].
+
+[7] Tan, J., Yang, J., Wu, S., Chen, G., & Zhao, J. (2021). _A critical look at the current train/test split in machine learning._ arXiv. https://arxiv.org/abs/2106.04525
+
+[8] Pedregosa et al. Scikit-learn: Machine Learning in Python. _JMLR,_ 12, pp. 2825-2830, 2011.
+
+[9] Tietz, M., Fan, T. J., Nouri, D., Bossan, B., & skorch Developers. (2017, July). skorch: A scikit-learn compatible neural network library that wraps PyTorch. https://skorch.readthedocs.io/en/stable/
+
+[10] Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito, Z., Lin, Z., Desmaison, A., Antiga, L., & Lerer, A. (2017). Automatic differentiation in PyTorch.
+
+[11] J. D. Hunter. "Matplotlib: A 2D Graphics Environment." _Computing in Science & Engineering,_ vol. 9, no. 3, pp. 90-95, 2007.
+
+[12] Waskom, M. L. (2021). seaborn: statistical data visualization. _Journal of Open Source Software,_ 6(60), 3021. https://doi.org/10.21105/joss.03021.
+
+[13] Zhang Z. Introduction to machine learning: k-nearest neighbors. _Ann Transl Med._ 2016 Jun;4(11):218. doi: 10.21037/atm.2016.03.37. PMID: 27386492; PMCID: PMC4916348.
+
+[14] Kingma, D. P., & Ba, J. (2017). Adam: A method for stochastic optimization. arXiv. https://arxiv.org/abs/1412.6980
+
+[15] Thurnhofer-Hemsi, K., López-Rubio, E., Molina-Cabello, M. A., & Najarian, K. (2020). Radial basis function kernel optimization for support vector machine classifiers. arXiv. https://arxiv.org/abs/2007.08233
 
 ---
