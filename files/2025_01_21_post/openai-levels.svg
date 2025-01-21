@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f8fafc" />
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#1e293b">
+        The 5 Levels of AI (OpenAI Classification System)
+    </text>
+
+    <!-- Path to AGI Arrow -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+        </marker>
+    </defs>
+    <line x1="100" y1="500" x2="100" y2="150" stroke="#64748b" stroke-width="2" 
+          marker-end="url(#arrowhead)" />
+    <text x="95" y="325" transform="rotate(-90, 95, 325)" font-family="Arial" 
+          font-size="14" fill="#64748b">Path towards AGI</text>
+
+    <!-- Levels -->
+    <!-- Level 1 -->
+    <g transform="translate(150, 450)">
+        <rect width="550" height="80" rx="10" fill="#bfdbfe" />
+        <text x="275" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1e3a8a">Level 1</text>
+        <text x="275" y="60" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e3a8a">AI with Conversational Language Capabilities</text>
+    </g>
+
+    <!-- Level 2 -->
+    <g transform="translate(150, 350)">
+        <rect width="550" height="80" rx="10" fill="#93c5fd" />
+        <text x="275" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1e3a8a">Level 2</text>
+        <text x="275" y="60" text-anchor="middle" font-family="Arial" font-size="14" fill="#1e3a8a">AI with Human-Level Problem-Solving Abilities</text>
+    </g>
+
+    <!-- Level 3 -->
+    <g transform="translate(150, 250)">
+        <rect width="550" height="80" rx="10" fill="#60a5fa" />
+        <text x="275" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff">Level 3</text>
+        <text x="275" y="60" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffffff">Systems that can Take Actions on Behalf of Users</text>
+    </g>
+
+    <!-- Level 4 -->
+    <g transform="translate(150, 150)">
+        <rect width="550" height="80" rx="10" fill="#3b82f6" />
+        <text x="275" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff">Level 4</text>
+        <text x="275" y="60" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffffff">AI that can Aid in Invention and Discovery</text>
+    </g>
+
+    <!-- Level 5 -->
+    <g transform="translate(150, 50)">
+        <rect width="550" height="80" rx="10" fill="#1d4ed8" />
+        <text x="275" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff">Level 5</text>
+        <text x="275" y="60" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffffff">AI that can Perform the Work of an Entire Organization</text>
+    </g>
+
+    <!-- Current Level Indicator -->
+    <line x1="720" y1="490" x2="720" y2="400" stroke="#dc2626" stroke-width="3" stroke-dasharray="5,5"/>
+    <circle cx="720" cy="490" r="5" fill="#dc2626"/>
+    <text x="720" y="520" text-anchor="middle" font-family="Arial" font-size="12" fill="#dc2626">Current Level</text>
+</svg>
