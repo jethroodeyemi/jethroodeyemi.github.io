@@ -77,4 +77,4 @@ DeepSeek R1 is not just another step in LLM evolution—it is a paradigm shift. 
 
 ## References
 
-1. DeepSeek R1 Paper - [Full Text](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)
+1. DeepSeek R1 Paper - <a href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf" target="_blank">Full Text</a>
