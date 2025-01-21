@@ -26,8 +26,6 @@ AI has witnessed significant leaps from simple word prediction models to sophist
 
 _**[Figure 1]**_ outlines the progression from simple word predictors to AI agents, as described by OpenAI's roadmap to artificial general intelligence.
 
-This evolution has been notably rapid post-2022, following the launch of ChatGPT, which marked a significant step in public interaction with AI technologies. Nvidia refers to this period as the "Era of Physical AI," highlighting the integration of AI into physical systems.
-
 ## Why AI Matters
 
 ### A New Paradigm in Automation
