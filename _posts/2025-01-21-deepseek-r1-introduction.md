@@ -45,8 +45,6 @@ DeepSeek R1 outperforms many industry benchmarks, achieving accuracy levels comp
 
 One of DeepSeek R1's standout features is its ability to distill reasoning into smaller models. This means even models with as few as 1.5 billion parameters can exhibit advanced reasoning capabilities, making sophisticated AI more accessible for real-world applications.
 
-**Figure Placeholder: Performance of Distilled Models Across Benchmarks**
-
 ## How DeepSeek R1 Achieves Its Results
 
 ### Reinforcement Learning (RL) with Group Relative Policy Optimization (GRPO)
