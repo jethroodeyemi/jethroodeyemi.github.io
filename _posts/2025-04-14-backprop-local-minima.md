@@ -1,7 +1,7 @@
 ---
 title: "Why Backprop Isn't Magic: The Challenge of Local Minima"
-date: 2025-02-15
-permalink: /posts/2025/02/backprop-local-minima/
+date: 2025-04-14
+permalink: /posts/2025/04/backprop-local-minima/
 tags:
   - machine learning
   - deep learning
