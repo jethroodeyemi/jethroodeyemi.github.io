@@ -22,7 +22,7 @@ redirect_from:
 - 2025-present: Computational Research Programmer
   - Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan
 
-- 2025: Partner
+- 2025: Co-Founder/CTO
   - Poodle AI Labs
 
 - 2023-2025: Lead Software Engineer
