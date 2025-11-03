@@ -31,20 +31,21 @@ redirect_from:
 
   - Roamlii Adventure Agency
 
-- 2024: CTO
+- 2024: CTO/Co-Founder
 
   - ForesAIt Medical inc
 
-- 2023: Graduate Teaching Assistant
+- 2022-2024: Research in Health AI
 
-  - Mechanical Engineering, University of Saskatchewan
-  - Duties included: Teaching "Introduction to Mechatronics" laboratory
+  - YOLOv8+CA: Enhanced cell detection (mAP 87.8%, P 83.9%, R 76.4%).
+  - Prosthetic RL: Soft Actor-Critic minimized training time.
+  - autoLB: Automated linguistic bias quantification.
 
-- 2022: Graduate Assistant
+- 2022: Research in Language Models for Bias and Fairness
 
   - Psychology and Health Studies, University of Saskatchewan
 
-- 2021-2022: Teaching Assistant
+- 2021-2022: Robotics Lab Instructor
 
   - Mechanical Engineering, Osun State University
 
