@@ -19,7 +19,15 @@ redirect_from:
 
 # Work experience
 
-- 2023-present: Lead Software Engineer
+- 2025-present: Computational Research Programmer
+
+  - Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan
+
+- 2025: Partner
+
+  - Poodle AI Labs
+
+- 2023-2025: Lead Software Engineer
 
   - Roamlii Adventure Agency
 
@@ -79,6 +87,8 @@ Teaching
 
 # Awards and Honors
 
+- 2024: NSERC - $120,000
+- 2024: IBET Momentum Fellowship - $120,000
 - 2023: BIOE SSF Devolved Scholarship - $10,000
 - 2022-2023: Brian Dale Goodchild Award in Engineering - $8,500
 - 2021: First Class Honor, Federal University of Agriculture, Abeokuta
