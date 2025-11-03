@@ -30,7 +30,7 @@ _**[Figure 1]** How more effective algorithms like GA and MIMIC consistently out
 
 ## Quantum Superposition: Parallel Exploration on a Massive Scale
 
-Quantum computing's power lies in its fundamentally different approach to processing information. A classical bit is either a 0 or a 1. A quantum bit, or **qubit**, can exist in a **superposition** of both states simultaneously. We can represent the state of a qubit, $|\psi\rangle$, as a linear combination of the classical states $|0\rangle$ and $|1\rangle$:
+Quantum computing's power lies in its fundamentally different approach to processing information. A classical bit is either a 0 or a 1. A quantum bit, or **qubit**, can exist in a **superposition** of both states simultaneously. We can represent the state of a qubit, $|\psi\rangle$, as a linear combination of the classical states $0$ and $1$:
 
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
