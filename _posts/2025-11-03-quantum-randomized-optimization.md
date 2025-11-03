@@ -1,5 +1,5 @@
 ---
-title: "From Brute Force Optimization to Quantum Advantage"
+title: "Why Randomized Optimization Needs Quantum Computing"
 date: 2025-11-03
 permalink: /posts/2025/11/quantum-randomized-optimization/
 tags:
