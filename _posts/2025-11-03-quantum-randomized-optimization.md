@@ -30,23 +30,24 @@ _**[Figure 1]** How more effective algorithms like GA and MIMIC consistently out
 
 ## Quantum Superposition: Parallel Exploration on a Massive Scale
 
-Quantum computing's power lies in its fundamentally different approach to processing information. A classical bit is either a 0 or a 1. A quantum bit, or **qubit**, can exist in a **superposition** of both states simultaneously. We can represent the state of a qubit, $$|\psi\rangle$$, as a linear combination of the classical states $$|0\rangle$$ and $$|1\rangle$$:
+Quantum computing's power lies in its fundamentally different approach to processing information. A classical bit is either a 0 or a 1. A quantum bit, or **qubit**, can exist in a **superposition** of both states simultaneously. We can represent the state of a qubit, $|\psi\rangle$, as a linear combination of the classical states $|0\rangle$ and $|1\rangle$:
 
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 $$
 
-Here, $$\alpha$$ and $$\beta$$ are complex numbers called probability amplitudes, and the probability of measuring the qubit as 0 is $$|\alpha|^2$$, while the probability of measuring it as 1 is $$|\beta|^2$$ (where $$|\alpha|^2 + |\beta|^2 = 1$$).
+Here, $\alpha$ and $\beta$ are complex numbers called probability amplitudes, and the probability of measuring the qubit as 0 is $|\alpha|^2$, while the probability of measuring it as 1 is $|\beta|^2$ (where $|\alpha|^2 + |\beta|^2 = 1$).
 
-This concept becomes exponentially more powerful when we use multiple qubits. By extension, a register of $$N$$ qubits can represent every possible combination of $$N$$ bits, all $$2^N$$ classical states, at the same time. This is formally written as:
+This concept becomes exponentially more powerful when we use multiple qubits. By extension, a register of $N$ qubits can represent every possible combination of $N$ bits, all $2^N$ classical states, at the same time. This is formally written as:
 
 $$
 |\Psi\rangle = \sum_{i=0}^{2^N-1} c_i |i\rangle
 $$
 
-This is where the game changes for randomized search. Instead of a classical Genetic Algorithm that maintains a population of, say, 200 candidate solutions, a quantum computer could use a single quantum state $$|\Psi\rangle$$ to represent a superposition of **millions or billions** of candidate solutions simultaneously. Each $$|i\rangle$$ could encode a potential solution, and its coefficient $$c_i$$ would represent its amplitude in the mix.
+This is where the game changes for randomized search. Instead of a classical Genetic Algorithm that maintains a population of, say, 200 candidate solutions, a quantum computer could use a single quantum state $|\Psi\rangle$ to represent a superposition of **millions or billions** of candidate solutions simultaneously. Each $|i\rangle$ could encode a potential solution, and its coefficient $c_i$ would represent its amplitude in the mix.
 
 Quantum operators could then act on this entire super-population in a single step.
+
 
 ## Quantum Tunneling
 
