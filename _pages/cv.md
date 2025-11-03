@@ -20,33 +20,27 @@ redirect_from:
 # Work experience
 
 - 2025-present: Computational Research Programmer
-
   - Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan
 
 - 2025: Partner
-
   - Poodle AI Labs
 
 - 2023-2025: Lead Software Engineer
-
   - Roamlii Adventure Agency
 
 - 2024: CTO/Co-Founder
-
   - ForesAIt Medical inc
 
 - 2022-2024: Research in Health AI
-
+  - Biomedical Engineering, University of Saskatchewan
   - YOLOv8+CA: Enhanced cell detection (mAP 87.8%, P 83.9%, R 76.4%).
   - Prosthetic RL: Soft Actor-Critic minimized training time.
   - autoLB: Automated linguistic bias quantification.
 
 - 2022: Research in Language Models for Bias and Fairness
-
   - Psychology and Health Studies, University of Saskatchewan
 
 - 2021-2022: Robotics Lab Instructor
-
   - Mechanical Engineering, Osun State University
 
 - 2019-2021: Robotics Software Engineer
