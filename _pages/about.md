@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Computational Research Programmer at the Vaccine and Infectious Disease Organization (UofS), located at the University of Saskatchewan. I am working on solving complex biology problems with the end goal of accelerating vaccine development using AI and Quantum Computing. Generally, my research interests span various interdisciplinary areas, including artificial intelligence, biosystems, medical devices, and control systems. I am particularly passionate about leveraging innovative engineering solutions to enhance human health.
+I am a Computational Research Programmer at the Vaccine and Infectious Disease Organization (VIDO), located at the University of Saskatchewan. I am working on solving complex biology problems with the end goal of accelerating vaccine development using AI and Quantum Computing. Generally, my research interests span various interdisciplinary areas, including artificial intelligence, biosystems, medical devices, and control systems. I am particularly passionate about leveraging innovative engineering solutions to enhance human health.
 
 ## My research interests
 
