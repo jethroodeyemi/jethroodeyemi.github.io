@@ -1,0 +1,12 @@
+---
+title: "Kalman and Savitzky-Golay Filter Augmented Cnn-Lstm Framework for Predictive Maintenance in Space Manufacturing"
+collection: publications
+permalink: /publication/2025-11-03-kalman-savitzky-golay-augmented-cnn-lstm
+excerpt: "This research introduces a novel Predictive Maintenance and Scheduling (PdMS) framework specifically designed for the in-space industry, leveraging a hybrid CNN-LSTM model to accurately forecast equipment Remaining Useful Life (RUL)."
+date: 2025-11-03
+venue: "Available at SSRN"
+paperurl: "https://ssrn.com/abstract=5187223"
+citation: "Wong, K., Ashraf, M. A., Alzal, A., Odeyemi, J., Chipusu, K., Ip, A. W. H., Suliman, F., Khwanda, H., Liu, D. C., Zhang, W., & Yeoh, W. (2025). Kalman and Savitzky-Golay Filter Augmented Cnn-Lstm Framework for Predictive Maintenance in Space Manufacturing. *Available at SSRN 5187223*."
+---
+
+Products manufactured in space using in-space manufacturing systems encounter distinct challenges such as microgravity, radiation exposure, and limited resources. These challenges necessitate innovative solutions to optimize resource utilization and minimize downtime. This research introduces a novel Predictive Maintenance and Scheduling (PdMS) framework specifically designed for the in-space industry. By leveraging Predictive Maintenance (PdM), the framework ensures the seamless synchronization of equipment maintenance within space manufacturing systems. The proposed approach employs a hybrid Convolutional Neural Network–Long Short-Term Memory (CNN-LSTM) model enhanced with Kalman and Savitzky-Golay (SG) filters for forecasting equipment Remaining Useful Life (RUL) accurately, even under noisy telemetry conditions. CNNs extract spatial features, while LSTMs model time-series relationships. Significantly, a Degradation Index (DI) and Health Indicator (HI) are introduced to enhance noise control and support the early detection of equipment degradation. The DI, based on an exponential function, penalizes deviations from expected RUL, while the HI leverages telemetry data. Their combined application, augmented by PCA dimensionality reduction, significantly improves performance. Validation using the Microsoft Azure AI-based PdM dataset achieved a 94% ROC-AUC for failure classification. The CNN model with SG filtering demonstrated superior performance, achieving a regression coefficient (R²) of 0.789 and an accuracy of 95.01%. This represents a significant improvement over models without filtering.
