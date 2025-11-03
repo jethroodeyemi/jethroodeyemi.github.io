@@ -1,0 +1,12 @@
+---
+title: "Benchmarking Randomized Optimization Algorithms on Binary, Permutation, and Combinatorial Problem Landscapes"
+collection: publications
+permalink: /publication/2025-01-21-benchmarking-randomized-optimization-algorithms
+excerpt: "This paper evaluates the performance of four randomized optimization algorithms across three distinct problem types, providing insights into the trade-offs between different optimization strategies."
+date: 2025-01-21
+venue: "arXiv"
+paperurl: "https://arxiv.org/abs/2501.17170"
+citation: "Odeyemi, J., & Zhang, W. (2025). Benchmarking Randomized Optimization Algorithms on Binary, Permutation, and Combinatorial Problem Landscapes. *arXiv preprint arXiv:2501.17170*."
+---
+
+In this paper, we evaluate the performance of four randomized optimization algorithms: Randomized Hill Climbing (RHC), Simulated Annealing (SA), Genetic Algorithms (GA), and MIMIC (Mutual Information Maximizing Input Clustering), across three distinct types of problems: binary, permutation, and combinatorial. We systematically compare these algorithms using a set of benchmark fitness functions that highlight the specific challenges and requirements of each problem category. Our study analyzes each algorithm's effectiveness based on key performance metrics, including solution quality, convergence speed, computational cost, and robustness. Results show that while MIMIC and GA excel in producing high-quality solutions for binary and combinatorial problems, their computational demands vary significantly. RHC and SA, while computationally less expensive, demonstrate limited performance in complex problem landscapes. The findings offer valuable insights into the trade-offs between different optimization strategies and provide practical guidance for selecting the appropriate algorithm based on the type of problems, accuracy requirements, and computational constraints.

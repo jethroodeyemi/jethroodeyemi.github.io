@@ -1,9 +1,9 @@
 ---
 title: "Kalman and Savitzky-Golay Filter Augmented Cnn-Lstm Framework for Predictive Maintenance in Space Manufacturing"
 collection: publications
-permalink: /publication/2025-11-03-kalman-savitzky-golay-augmented-cnn-lstm
+permalink: /publication/2025-04-03-kalman-savitzky-golay-augmented-cnn-lstm
 excerpt: "This research introduces a novel Predictive Maintenance and Scheduling (PdMS) framework specifically designed for the in-space industry, leveraging a hybrid CNN-LSTM model to accurately forecast equipment Remaining Useful Life (RUL)."
-date: 2025-11-03
+date: 2025-04-03
 venue: "Available at SSRN"
 paperurl: "https://ssrn.com/abstract=5187223"
 citation: "Wong, K., Ashraf, M. A., Alzal, A., Odeyemi, J., Chipusu, K., Ip, A. W. H., Suliman, F., Khwanda, H., Liu, D. C., Zhang, W., & Yeoh, W. (2025). Kalman and Savitzky-Golay Filter Augmented Cnn-Lstm Framework for Predictive Maintenance in Space Manufacturing. *Available at SSRN 5187223*."
