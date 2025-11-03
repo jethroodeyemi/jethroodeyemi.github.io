@@ -1,0 +1,12 @@
+---
+title: "Impact of cyber physical systems on enhancing robotic system autonomy: a brief critical review"
+collection: publications
+permalink: /publication/2025-05-31-impact-of-cyber-physical-systems-on-robotics
+excerpt: "This paper reviews the integration of cyber-physical systems (CPS) with robotic systems to enhance their autonomy, connectivity, and adaptability in industrial applications, addressing key challenges and potential solutions."
+date: 2025-05-31
+venue: "The International Journal of Advanced Manufacturing Technology"
+paperurl: "https://doi.org/10.1007/s00170-025-15828-w"
+citation: "Omiyale, B.O., Odeyemi, J., Ogbeyemi, A., Olorunsogbon, F., & Zhang, W. C. (2025). Impact of cyber physical systems on enhancing robotic system autonomy: a brief critical review. *The International Journal of Advanced Manufacturing Technology, 138*, 3925–3942."
+---
+
+Integrating cyber-physical systems (CPS) with robotic systems enhances their autonomy, connectivity, independence, adaptability, intelligence, and accessibility in industrial applications. However, enabling autonomous decision-making and facilitating complex choices in unpredictable and dynamic environments remain challenging for robotic systems. In this case, CPS can be incorporated into these robotic systems to address this issue to bridge this knowledge gap. One of the primary benefits of integrating CPS into robotics is the ability to process data from the robot’s sensors in real time. This capability allows robots to make informed decisions and interact instantly with their physical environment. With this understanding, this paper aims to document and critically conduct a literature survey on the following areas: first, the significance of integrating CPS into robotic systems for enhanced technological performance; second, the challenges faced during this integration; and third, potential solutions to these challenges. Finally, one motivation for this review is to create a framework that enhances the autonomy performance of robotic systems in various industrial operations.
