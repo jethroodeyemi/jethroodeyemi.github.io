@@ -1,5 +1,5 @@
 ---
-title: "The Unreasonable Effectiveness of Scale: A Deep Dive into AI's Scaling Laws"
+title: "The Unreasonable Effectiveness of Scale"
 date: 2025-11-17
 permalink: /posts/2025/11/scaling-laws-in-ai/
 tags:

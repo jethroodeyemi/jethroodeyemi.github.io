@@ -1,5 +1,5 @@
 ---
-title: "Navigating the Abyss: A Technical Deep Dive into Exploding Gradients"
+title: "A Technical Deep Dive into Exploding Gradients"
 date: 2025-11-17
 permalink: /posts/2025/11/exploding-gradients-problem/
 tags:
