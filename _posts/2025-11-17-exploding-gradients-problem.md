@@ -13,7 +13,7 @@ tags:
 
 I remember one of the experiences I had duing my MS in Computer Science at Georgia Tech while working on a CNN for protein data. I was feeding raw protein data as an image, with pixel values in the standard 0-255 range, directly into the network. My model's accuracy was stuck below 20%, and the loss was oscillating wildly. After hours of debugging, I traced the issue to its source: I had neglected to normalize my input data, leading to a classic case of "exploding gradients."
 
-In this post, I'll offer a more technical deep dive into this phenomenon, exploring the mathematical underpinnings of why gradients explode and discussing several strategies to mitigate it.
+In this post, I'll offer a more technical deep dive into this phenomenon, exploring the mathematical questions of why gradients explode and discussing several strategies to mitigate it.
 
 ## The Chain Rule and the Root of the Explosion
 
@@ -95,7 +95,7 @@ By keeping the weights small, regularization indirectly helps to keep the gradie
 
 ## The Results: Convergence
 
-Implementing normalization was the key. My model's accuracy immediately jumped from under 20% to over 90%. The learning curves tell the story.
+Implementing normalization was the key. My model's accuracy immediately jumped from under 20% to over 90%. The hypothetical learning curves tell the story.
 
 **Before Normalization:** The loss is erratic, and accuracy is flat. A clear sign of unstable training.
 ![Learning Curve Before Normalization](https://jethroodeyemi.github.io/files/2025_11_17_post/learning_curve_before.png)
