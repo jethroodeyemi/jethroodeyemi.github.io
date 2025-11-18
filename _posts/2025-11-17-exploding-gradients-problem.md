@@ -63,7 +63,7 @@ $$
 
 For image data with pixel values from 0 to 255, this simplifies to dividing by 255. This simple step confines the input values to the range [0, 1].
 
-Here's the same data matrix after normalization. The values are now in a much more stable range.
+Here's the same data matrix after normalization.
 
 ```
 [[0.090, 0.706, 0.176, 0.824, 0.353],
@@ -95,7 +95,7 @@ By keeping the weights small, regularization indirectly helps to keep the gradie
 
 ## The Results: Convergence
 
-Implementing normalization was the key. My model's accuracy immediately jumped from under 20% to over 95%. The learning curves tell the story.
+Implementing normalization was the key. My model's accuracy immediately jumped from under 20% to over 90%. The learning curves tell the story.
 
 **Before Normalization:** The loss is erratic, and accuracy is flat. A clear sign of unstable training.
 ![Learning Curve Before Normalization](https://jethroodeyemi.github.io/files/2025_11_17_post/learning_curve_before.png)
